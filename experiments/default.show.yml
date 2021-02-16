@@ -2,4 +2,9 @@
 type: experiment
 enabled: false
 flag: default.show
-value: false
+conditions:
+  - dependency:
+      flag: default.ask
+      value: 'true'
+    value: false
+value: true
