@@ -1,0 +1,10 @@
+type: target-group
+name: BetaUsers
+description: >-
+  Users explicitly enrolled in our beta program can see certain features when
+  they are logged in. 
+conditions:
+  - operator: is-true
+    property: isBetaUser
+  - operator: is-true
+    property: isLoggedIn
