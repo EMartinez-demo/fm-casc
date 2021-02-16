@@ -6,4 +6,4 @@ conditions:
   - group:
       name: BetaUsers
     value: true
-value: true
+value: false
