@@ -1,8 +1,8 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 flag: default.headerColor
 availableValues:
   - is-white
   - is-primary
   - is-dark
-value: is-primary
+value: is-dark
